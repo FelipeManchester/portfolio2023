@@ -5,3 +5,10 @@
 body {
   color: #141414;
 }
+
+.bg-decoration {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}

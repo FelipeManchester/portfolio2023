@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import logo from "../icons/Felipe..svg";
+import logo from "/public/icons/Felipe..svg";
 import { Fira_Sans } from "next/font/google";
 
 const text = Fira_Sans({ subsets: ["latin"], weight: "400" });
@@ -19,7 +19,7 @@ const Navbar = () => {
         <li>
           <a
             href="#projetos"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit"
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-2xl"
           >
             Projetos
           </a>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li>
           <a
             href="#formacao"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit"
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-2xl"
           >
             Formação
           </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
         <li>
           <a
             href="#contato"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit"
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-2xl"
           >
             Contato
           </a>
