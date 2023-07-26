@@ -19,7 +19,7 @@ const Navbar = () => {
         <li>
           <a
             href="#projetos"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-2xl"
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg"
           >
             Projetos
           </a>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li>
           <a
             href="#formacao"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-2xl"
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg"
           >
             Formação
           </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
         <li>
           <a
             href="#contato"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-2xl"
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg"
           >
             Contato
           </a>

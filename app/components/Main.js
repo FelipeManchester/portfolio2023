@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div
       className={clsx(
-        "max-w-7xl md:py-10 md:px-5 mx-auto my-0 grid grid-cols-[1fr,1fr] lg:grid-cols-[1fr,2fr] gap-5 sm:gap-10 md:gap-28 items-center",
+        "max-w-7xl md:py-10 md:px-5 mx-auto my-0 grid grid-cols-[1fr,1fr] lg:grid-cols-[1fr,2fr] gap-5 sm:gap-10 md:gap-10 items-center",
         text.className
       )}
     >
@@ -21,7 +21,7 @@ const Main = () => {
       />
       <div>
         <h1 className="relative text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold leading-tight tracking-tight">
-          <span className="bg-decoration w-8 h-6 md:w-20 md:h-20 absolute md:top-48 md:left-[450px] transform -translate-x-1/2 -translate-y-1/2"></span>
+          <span className="bg-decoration absolute top-4 left-2 w-8 h-6 transform -translate-x-1/2 -translate-y-1/2 sm:w-12 sm:h-12 sm:top-5 sm:left-3 md:w-16 md:h-16 md:top-5 md:left-5 lg:w-20 lg:h-20 lg:top-8 lg:left-6"></span>
           Desenvolvedor
           <br /> Front End &<br /> UX/UI Designer
         </h1>
