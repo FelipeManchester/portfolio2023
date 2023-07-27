@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div
       className={clsx(
-        "max-w-7xl md:py-10 md:px-5 mx-auto my-0 grid grid-cols-[1fr,1fr] lg:grid-cols-[1fr,2fr] gap-5 sm:gap-10 md:gap-36 items-center",
+        "max-w-7xl md:py-10 md:px-5 py-6 px-3 mx-auto my-0 grid grid-cols-[1fr,1fr] lg:grid-cols-[1fr,2fr] gap-5 sm:gap-10 md:gap-36 items-center",
         text.className
       )}
     >
