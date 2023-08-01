@@ -12,6 +12,9 @@ module.exports = {
       backgroundImage: {
         decoration: "url('/icons/detalhe.svg')",
       },
+      colors: {
+        primary: "#e95420",
+      },
     },
   },
   plugins: [require("flowbite/plugin")],
