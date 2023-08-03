@@ -13,22 +13,19 @@ const Project = () => {
       aria-label="Projetos"
       id="projetos"
       className={clsx(
-        "max-w-7xl md:py-10 md:px-5 mx-auto my-0 grid lg:grid-cols-[1fr,2fr] md:gap-36 gap-12",
+        "max-w-7xl py-6 px-3 md:py-10 md:px-5 mx-auto my-0 grid grid-cols-[1fr] lg:grid-cols-[1fr,2fr] md:gap-36 gap-10",
         text.className
       )}
     >
-      <h2 className="text-9xl font-bold uppercase text-gray-300 hover:text-gray-400/[.60] transition duration-300">
-        Pro
-        <br />
-        jet
-        <br />
-        os
+      <h2 className="text-5xl capitalize md:max-w-[3.4ch] break-words md:text-9xl font-bold md:uppercase md:text-gray-300 md:hover:text-gray-400/[.60] transition duration-300">
+        Projetos
       </h2>
       <div>
-        <p>
-          Desenvolvo pequenos projetos utilizando apenas HTML, CSS e JavaScript.
-          Para aplicativos web como o miniblog Galaxy eu utilizo o React. Design
-          e código são minhas paixões ❤️
+        <p className="text-xl md:text-2xl max-w-[46ch] mb-16 text-gray-800">
+          Desenvolvo pequenos projetos utilizando apenas <b>HTML</b>, <b>CSS</b>
+          e <b>JavaScript</b>. Para aplicativos web como o miniblog Galaxy eu
+          utilizo o <b>NextJS</b> + <b>React</b>. Design e código são minhas
+          paixões ❤️
         </p>
         <DefaultAccordion />
       </div>

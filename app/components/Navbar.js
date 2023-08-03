@@ -1,7 +1,10 @@
+"use client";
+import React from "react";
 import clsx from "clsx";
 import logo from "/public/icons/Felipe..svg";
-import { Fira_Sans } from "next/font/google";
+import { Link } from "react-scroll";
 
+import { Fira_Sans } from "next/font/google";
 const text = Fira_Sans({ subsets: ["latin"], weight: "400" });
 
 const Navbar = () => {
@@ -17,20 +20,24 @@ const Navbar = () => {
       </a>
       <ul className="flex flex-wrap gap-3 text-sm md:text-lg">
         <li>
-          <a
-            href="#projetos"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg"
+          <Link
+            to="projetos"
+            smooth={true}
+            duration={500}
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg cursor-pointer"
           >
             Projetos
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#formacao"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg"
+          <Link
+            to="formacao"
+            smooth={true}
+            duration={500}
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg cursor-pointer"
           >
             Formação
-          </a>
+          </Link>
         </li>
         <li>
           <a

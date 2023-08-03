@@ -13,3 +13,7 @@ body {
   background-position: center;
   z-index: -1;
 }
+
+b {
+  color: #141414;
+}

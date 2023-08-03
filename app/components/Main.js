@@ -19,12 +19,15 @@ const Main = () => {
         src={mainPhoto.src}
         alt="Foto de Felipe, o desenvolvedor desse site"
       />
-      <div>
+      <div className="relative">
         <h1 className="relative text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-tight tracking-tight">
           <span className="bg-decoration absolute top-3.5 left-2 w-8 h-8 transform -translate-x-1/2 -translate-y-1/2 sm:w-12 sm:h-12 sm:top-5 sm:left-3 md:w-16 md:h-16 md:top-5 md:left-5 lg:w-20 lg:h-20 lg:top-8 lg:left-6"></span>
           Desenvolvedor
           <br /> Front End &<br /> UX/UI Designer
         </h1>
+        <button className="bg-primary rounded-md text-white text-xs md:text-lg mt-2 p-3 hover:bg-orange-500 transition duration-300 uppercase font-bold absolute md:right-44 md:mt-4">
+          Fale comigo!
+        </button>
       </div>
     </div>
   );
