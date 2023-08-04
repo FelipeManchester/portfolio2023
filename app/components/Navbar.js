@@ -40,12 +40,14 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a
-            href="#contato"
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg"
+          <Link
+            to="contato"
+            smooth={true}
+            duration={500}
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg cursor-pointer "
           >
             Contato
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

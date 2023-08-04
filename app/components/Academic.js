@@ -16,12 +16,12 @@ const Academic = () => {
         text.className
       )}
     >
-      <div className="max-w-7xl py-6 px-3 md:py-10 md:px-5 mx-auto my-0 grid grid-cols-[1fr] md:grid-cols-[2fr,1fr] lg:grid-cols-[4fr,1fr] md:gap-36 gap-10">
-        <h2 className="text-5xl capitalize md:max-w-[3.4ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-700 md:hover:text-zinc-600/[.60] transition duration-300 md:order-1">
+      <div className="max-w-7xl py-16 px-5 md:py-32 md:px-5 mx-auto my-0 grid grid-cols-[1fr] md:grid-cols-[2fr,1fr] lg:grid-cols-[4fr,1fr] md:gap-36 gap-10">
+        <h2 className="text-5xl text-zinc-50 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-700 md:hover:text-zinc-600/[.60] transition duration-300 md:order-1">
           Formação
         </h2>
         <div>
-          <p className="text-[#a3a3a3] md:text-2xl md:max-w-[40ch] mb-16">
+          <p className="text-[#a3a3a3] text-xl md:text-2xl md:max-w-[40ch] mb-16">
             Estou cursando
             <b className="text-white">
               {" "}
@@ -45,32 +45,37 @@ const Academic = () => {
           </ul>
           <div>
             <div className="mb-14">
-              <h3 className="text-lg uppercase text-zinc-400 mb-8">
+              <h3 className="text-lg uppercase text-zinc-400 mb-4">
                 Certificados
               </h3>
               <ul className="flex flex-col gap-6">
-                <li>
+                <li className="text-lg text-zinc-100 flex justify-between">
                   Algoritmo e Lógica de Programação
-                  <span>Curso em Vídeo, 40h</span>
+                  <span className="text-zinc-400">Curso em Vídeo, 40h</span>
                 </li>
-                <li>
-                  Responsive Web Design<span>FreeCodeCamp, 300h</span>
+                <li className="text-lg text-zinc-100 flex justify-between">
+                  Responsive Web Design
+                  <span className="text-zinc-400">FreeCodeCamp, 300h</span>
                 </li>
-                <li>
+                <li className="text-lg text-zinc-100 flex justify-between">
                   JavaScript Algorithms and Data Structures
-                  <span>FreeCodeCamp, 300h</span>
+                  <span className="text-zinc-400">FreeCodeCamp, 300h</span>
                 </li>
-                <li>
-                  React (Do zero ao avançado)<span>Udemy, 30h</span>
+                <li className="text-lg text-zinc-100 flex justify-between">
+                  React (Do zero ao avançado)
+                  <span className="text-zinc-400">Udemy, 30h</span>
                 </li>
-                <li>
-                  TypeScript para Iniciantes<span>Origamid, 22h</span>
+                <li className="text-lg text-zinc-100 flex justify-between">
+                  TypeScript para Iniciantes
+                  <span className="text-zinc-400">Origamid, 22h</span>
                 </li>
-                <li>
-                  Front-End Development Libraries<span>FreeCodeCamp, 300h</span>
+                <li className="text-lg text-zinc-100 flex justify-between">
+                  Front-End Development Libraries
+                  <span className="text-zinc-400">FreeCodeCamp, 300h</span>
                 </li>
-                <li>
-                  UI Design Para Iniciantes<span>Origamid, 30h</span>
+                <li className="text-lg text-zinc-100 flex justify-between">
+                  UI Design Para Iniciantes
+                  <span className="text-zinc-400">Origamid, 30h</span>
                 </li>
               </ul>
             </div>

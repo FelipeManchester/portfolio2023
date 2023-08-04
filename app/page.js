@@ -2,6 +2,7 @@ import Project from "./components/Project";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Academic from "./components/Academic";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Main />
       <Project />
       <Academic />
+      <Footer />
     </>
   );
 }
