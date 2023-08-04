@@ -32,16 +32,23 @@ const Academic = () => {
             cursos e treinamentos online.
           </p>
           <ul className="flex flex-wrap gap-5 mb-16 text-white">
-            <li className="bg-black p-5 rounded-md">
-              <span>Tecnólogo</span>
-              <h3>Análise e Desenvolvimento de Sistemas</h3>
-              <span>Unopar</span>
+            <li className="bg-zinc-950 p-5 flex flex-col rounded-md">
+              <span className="uppercase text-zinc-400">Tecnólogo</span>
+              <h3 className="text-lg mb-10 relative font-bold">
+                <span className="absolute block w-1 h-5 bg-primary left-[-24px]"></span>
+                Análise e Desenvolvimento de Sistemas
+              </h3>
+              <span className="text-lg uppercase text-zinc-400 mb-3">
+                Unopar 2022/2023
+              </span>
             </li>
           </ul>
           <div>
-            <div>
-              <h3>Cursos Online</h3>
-              <ul>
+            <div className="mb-14">
+              <h3 className="text-lg uppercase text-zinc-400 mb-8">
+                Certificados
+              </h3>
+              <ul className="flex flex-col gap-6">
                 <li>
                   Algoritmo e Lógica de Programação
                   <span>Curso em Vídeo, 40h</span>
