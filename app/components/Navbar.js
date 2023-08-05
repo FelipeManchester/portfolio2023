@@ -24,7 +24,7 @@ const Navbar = () => {
             to="projetos"
             smooth={true}
             duration={500}
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg cursor-pointer"
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit md:text-2xl hover:underline hover:decoration-wavy decoration-primary cursor-pointer"
           >
             Projetos
           </Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
             to="formacao"
             smooth={true}
             duration={500}
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg cursor-pointer"
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit md:text-2xl hover:underline hover:decoration-wavy decoration-primary cursor-pointer"
           >
             Formação
           </Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
             to="contato"
             smooth={true}
             duration={500}
-            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit text-lg cursor-pointer "
+            className="py-2.5 px-2.5 block bg-gray-50 rounded-md md:bg-inherit md:text-2xl hover:underline hover:decoration-wavy decoration-primary cursor-pointer"
           >
             Contato
           </Link>
