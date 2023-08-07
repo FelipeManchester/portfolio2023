@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div
       className={clsx(
-        "max-w-7xl md:py-10 md:px-5 py-6 px-3 mx-auto my-0 grid grid-cols-[1fr,1fr] lg:grid-cols-[1fr,2fr] gap-5 sm:gap-10 md:gap-36 items-center",
+        "max-w-7xl md:py-10 md:px-5 py-6 px-3 mx-auto mb-28 grid grid-cols-[1fr,1fr] lg:grid-cols-[1fr,2fr] gap-5 sm:gap-10 md:gap-36 items-center",
         text.className
       )}
     >
@@ -25,8 +25,9 @@ const Main = () => {
           Desenvolvedor
           <br /> Front End &<br /> UX/UI Designer
         </h1>
-        <button className="bg-primary rounded-md text-white text-xs md:text-lg mt-2 p-3 hover:bg-orange-500 transition duration-300 uppercase font-bold absolute md:right-44 md:mt-4">
-          Fale comigo!
+
+        <button className="bg-primary rounded-md text-white text-xs md:text-lg mt-2 p-4 hover:bg-orange-500 transition duration-300 uppercase font-bold absolute md:left-1 md:mt-4">
+          Fale comigo! 👋️
         </button>
       </div>
     </div>

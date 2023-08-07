@@ -5,7 +5,7 @@ import githubIcon from "/public/icons/github.svg";
 
 export default function DefaultAccordion() {
   return (
-    <Accordion className="bg-white">
+    <Accordion className="bg-white mb-6">
       <Accordion.Panel className="bg-white">
         <Accordion.Title className="bg-white hover:bg-gray-50 transition duration-300 font-bold text-lg">
           Galaxy

@@ -21,12 +21,12 @@ const Footer = () => {
         text.className
       )}
     >
-      <div className="max-w-7xl py-16 px-5 md:py-32 md:px-5 mx-auto my-0 grid grid-cols-[1fr] md:grid-cols-[1fr,2fr] md:gap-36 gap-10">
-        <h2 className="text-5xl text-zinc-50 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-900 md:hover:text-zinc-700/[.60] transition duration-300">
+      <div className="max-w-7xl py-16 px-5 md:py-32 md:px-5 mx-auto grid grid-cols-[1fr] md:grid-cols-[1fr,2fr] md:gap-36 gap-10">
+        <h2 className="text-5xl text-zinc-50 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-900 md:hover:text-zinc-700/[.60] transition duration-500">
           Contato
         </h2>
-        <div className="flex flex-wrap justify-around">
-          <p className="text-zinc-300 md:text-4xl">
+        <div className="flex flex-wrap justify-between">
+          <p className="text-zinc-300 md:text-3xl mb-8">
             Aqui estão meus principais contatos! No momento estou{" "}
             <span className="text-white">disponível </span>
             para novos projetos. Entre em contato comigo e conversaremos melhor
@@ -36,7 +36,7 @@ const Footer = () => {
             <img
               src={github.src}
               alt="GitHub Logo"
-              className="w-16 hover:brightness-125 hover:w-[70px]  transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px]  transition duration-300"
             />
           </a>
           <a
@@ -46,7 +46,7 @@ const Footer = () => {
             <img
               src={linkedin.src}
               alt="Linkedin Logo"
-              className="w-16 hover:brightness-125 hover:w-[70px] transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px] transition duration-300"
             />
           </a>
 
@@ -54,14 +54,14 @@ const Footer = () => {
             <img
               src={telegram.src}
               alt="Telegram Logo"
-              className="w-16 hover:brightness-125 hover:w-[70px] transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px] transition duration-300"
             />
           </a>
           <a href="https://wa.me/+5522997264111" target="_blank">
             <img
               src={whatsapp.src}
               alt="Whatsapp Logo"
-              className="w-16 hover:brightness-125 hover:w-[70px] transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px] transition duration-300"
             />
           </a>
           <a
@@ -71,7 +71,7 @@ const Footer = () => {
             <img
               src={email.src}
               alt="Email Logo"
-              className="w-16 hover:brightness-125 hover:w-[70px] transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px] transition duration-300"
             />
           </a>
         </div>

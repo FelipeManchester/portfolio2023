@@ -17,7 +17,7 @@ const Academic = () => {
       )}
     >
       <div className="max-w-7xl py-16 px-5 md:py-32 md:px-5 mx-auto my-0 grid grid-cols-[1fr] md:grid-cols-[2fr,1fr] lg:grid-cols-[4fr,1fr] md:gap-36 gap-10">
-        <h2 className="text-5xl text-zinc-50 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-900 md:hover:text-zinc-950 transition duration-300 md:order-1">
+        <h2 className="text-5xl text-zinc-50 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-900 md:hover:text-zinc-950 transition duration-500 md:order-1">
           Formação
         </h2>
         <div>
@@ -28,11 +28,11 @@ const Academic = () => {
               Análise e Desenvolvimento de Sistemas{" "}
             </b>
             👨‍🎓️ pela Universidade Norte do Paraná (Unopar) com conclusão em
-            Dezembro de 2023. Além disso, sempre me mantenho atualizado fazendo
+            Dezembro de 2023. Além disso, estou em constante aprendizado fazendo
             cursos e treinamentos online.
           </p>
           <ul className="flex flex-wrap gap-5 mb-16 text-white">
-            <li className="bg-zinc-950 p-5 flex flex-col rounded-md">
+            <li className="bg-zinc-950 p-5 flex flex-col rounded-md shadow shadow-zinc-600 hover:shadow-zinc-500 transition duration-300">
               <span className="uppercase text-zinc-400">Tecnólogo</span>
               <h3 className="text-lg mb-10 relative font-bold">
                 <span className="absolute block w-1 h-5 bg-primary left-[-24px]"></span>
@@ -44,11 +44,11 @@ const Academic = () => {
             </li>
           </ul>
           <div>
-            <div className="mb-14">
+            <div>
               <h3 className="text-lg uppercase text-zinc-400 mb-4">
                 Certificados
               </h3>
-              <ul className="flex flex-col gap-6 text-lg sm:text-xl md:text-2xl text-zinc-100">
+              <ul className="flex flex-col gap-6 text-xs sm:text-xl md:text-2xl text-zinc-100">
                 <li className="font-bold flex justify-between">
                   Algoritmo e Lógica de Programação
                   <span className="text-zinc-400 font-normal">
