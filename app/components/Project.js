@@ -18,7 +18,7 @@ const Project = () => {
         text.className
       )}
     >
-      <h2 className="text-5xl capitalize md:max-w-[3.4ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-200 md:hover:text-zinc-400/[.60] transition duration-500">
+      <h2 className="text-5xl text-zinc-800 capitalize md:max-w-[3.4ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-200 md:hover:text-zinc-400/[.60] transition duration-500">
         Projetos
       </h2>
       <div>
@@ -32,7 +32,7 @@ const Project = () => {
         <DefaultAccordion />
         <button className="bg-primary rounded-md text-white p-4 hover:bg-orange-500 transition duration-300 uppercase font-bold">
           <a
-            href="https://github.com"
+            href="https://github.com/felipemanchester"
             target="_blank"
             className="flex items-center gap-3"
           >

@@ -25,18 +25,22 @@ const Footer = () => {
         <h2 className="text-5xl text-zinc-50 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-900 md:hover:text-zinc-700/[.60] transition duration-500">
           Contato
         </h2>
-        <div className="flex flex-wrap justify-between">
+        <div className="flex flex-wrap justify-between divide-dashed divide-x">
           <p className="text-zinc-300 md:text-3xl mb-8">
             Aqui estão meus principais contatos! No momento estou{" "}
             <span className="text-white">disponível </span>
             para novos projetos. Entre em contato comigo e conversaremos melhor
             😁️
           </p>
-          <a href="https://github.com/FelipeManchester" target="_blank">
+          <a
+            href="https://github.com/FelipeManchester"
+            target="_blank"
+            className="h-16"
+          >
             <img
               src={github.src}
               alt="GitHub Logo"
-              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px]  transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 md:hover:w-[65px] transition duration-300"
             />
           </a>
           <a
@@ -46,22 +50,21 @@ const Footer = () => {
             <img
               src={linkedin.src}
               alt="Linkedin Logo"
-              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px] transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 md:hover:w-[65px] transition duration-300"
             />
           </a>
-
           <a href="https://telegram.me/felipemanchester" target="_blank">
             <img
               src={telegram.src}
               alt="Telegram Logo"
-              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px] transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 md:hover:w-[65px] transition duration-300"
             />
           </a>
           <a href="https://wa.me/+5522997264111" target="_blank">
             <img
               src={whatsapp.src}
               alt="Whatsapp Logo"
-              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px] transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 md:hover:w-[65px] transition duration-300"
             />
           </a>
           <a
@@ -71,7 +74,7 @@ const Footer = () => {
             <img
               src={email.src}
               alt="Email Logo"
-              className="w-8 md:w-16 hover:brightness-125 hover:w-[65px] transition duration-300"
+              className="w-8 md:w-16 hover:brightness-125 md:hover:w-[65px] transition duration-300"
             />
           </a>
         </div>

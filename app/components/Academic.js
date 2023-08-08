@@ -17,7 +17,7 @@ const Academic = () => {
       )}
     >
       <div className="max-w-7xl py-16 px-5 md:py-32 md:px-5 mx-auto my-0 grid grid-cols-[1fr] md:grid-cols-[2fr,1fr] lg:grid-cols-[4fr,1fr] md:gap-36 gap-10">
-        <h2 className="text-5xl text-zinc-50 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-900 md:hover:text-zinc-950 transition duration-500 md:order-1">
+        <h2 className="text-5xl text-zinc-100 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-900 md:hover:text-zinc-950 transition duration-500 md:order-1">
           Formação
         </h2>
         <div>
@@ -83,7 +83,7 @@ const Academic = () => {
                     FreeCodeCamp, 300h
                   </span>
                 </li>
-                <li className=" font-bold flex justify-between">
+                <li className="font-bold flex justify-between">
                   UI Design Para Iniciantes
                   <span className="text-zinc-400 font-normal">
                     Origamid, 30h
