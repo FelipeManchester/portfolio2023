@@ -27,7 +27,9 @@ const Main = () => {
         </h1>
 
         <button className="bg-primary rounded-md text-white text-xs md:text-lg mt-2 p-4 hover:bg-orange-500 transition duration-300 uppercase font-bold absolute md:left-1 md:mt-4">
-          Fale comigo! 👋️
+          <a href="https://wa.me/+5522997264111" target="_blank">
+            Fale comigo! 👋️
+          </a>
         </button>
       </div>
     </div>

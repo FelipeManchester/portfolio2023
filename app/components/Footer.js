@@ -25,7 +25,7 @@ const Footer = () => {
         <h2 className="text-5xl text-zinc-50 capitalize md:max-w-[3.2ch] break-words md:text-9xl font-bold md:uppercase md:text-zinc-900 md:hover:text-zinc-700/[.60] transition duration-500">
           Contato
         </h2>
-        <div className="flex flex-wrap justify-between divide-dashed divide-x">
+        <div className="flex flex-wrap justify-between">
           <p className="text-zinc-300 md:text-3xl mb-8">
             Aqui estão meus principais contatos! No momento estou{" "}
             <span className="text-white">disponível </span>
@@ -35,7 +35,7 @@ const Footer = () => {
           <a
             href="https://github.com/FelipeManchester"
             target="_blank"
-            className="h-16"
+            className="h-8      "
           >
             <img
               src={github.src}
