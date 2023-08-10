@@ -24,7 +24,7 @@ export default function DefaultAccordion() {
               <b>Firebase</b> no Back-end. Nele você pode criar, editar e apagar
               suas postagens. O design foi inspirado no nosso universo.
             </p>
-            <button className="bg-primary w-12 md:h-16 md:w-16 rounded-md flex justify-center items-center absolute bottom-0 right-1 z-10 text-white p-3 hover:bg-orange-500 transition duration-300">
+            <button className="bg-primary w-10 md:h-16 md:w-16 rounded-md flex justify-center items-center absolute bottom-0 right-1 z-10 text-white p-3 hover:bg-orange-500 transition duration-300">
               <a
                 href="https://github.com/FelipeManchester/miniblog-galaxy"
                 target="_blank"
@@ -52,7 +52,7 @@ export default function DefaultAccordion() {
               trata de um mini-game interativo onde o objetivo é adivinhar as
               palavras de acordo com o tema fornecido.{" "}
             </p>
-            <button className="bg-primary w-12 md:h-16 md:w-16 rounded-md flex justify-center items-center absolute bottom-0 right-1 z-10 text-white p-3 hover:bg-orange-500 transition duration-300">
+            <button className="bg-primary w-10 md:h-16 md:w-16 rounded-md flex justify-center items-center absolute bottom-0 right-1 z-10 text-white p-3 hover:bg-orange-500 transition duration-300">
               <a
                 href="https://github.com/FelipeManchester/mysterious-word"
                 target="_blank"
@@ -74,11 +74,11 @@ export default function DefaultAccordion() {
             </a>
             <p className="text-base md:text-xl text-zinc-800 text-left">
               Feito com <b>ReactJS</b> e <b>TypeScript</b>, uma simples lista de
-              tarefa onde você pode adicionar itens, remover e editar. No fim da
-              página utilizei uma API de frases motivacionais para ficar mais
-              atrativo.
+              tarefa onde você pode adicionar itens, remover e editar. <br />
+              No fim da página utilizei uma API de frases motivacionais para
+              ficar mais atrativo.
             </p>
-            <button className="bg-primary w-12 md:h-16 md:w-16 rounded-md flex justify-center items-center absolute bottom-0 right-1 z-10 text-white p-3 hover:bg-orange-500 transition duration-300">
+            <button className="bg-primary w-10 md:h-16 md:w-16 rounded-md flex justify-center items-center absolute bottom-0 right-1 z-10 text-white p-3 hover:bg-orange-500 transition duration-300">
               <a
                 href="https://github.com/FelipeManchester/todo-react-ts"
                 target="_blank"
@@ -107,7 +107,7 @@ export default function DefaultAccordion() {
               (Rocketseat). O objetivo era criar uma landing page para uma
               clínica médica fictícia.
             </p>
-            <button className="bg-primary w-12 md:h-16 md:w-16 rounded-md flex justify-center items-center absolute bottom-0 right-1 z-10 text-white p-3 hover:bg-orange-500 transition duration-300">
+            <button className="bg-primary w-10 md:h-16 md:w-16 rounded-md flex justify-center items-center absolute bottom-0 right-1 z-10 text-white p-3 hover:bg-orange-500 transition duration-300">
               <a
                 href="https://github.com/FelipeManchester/DoctorCare"
                 target="_blank"

@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import mainPhoto from "/public/img/foto-hold.svg";
+import mainPhoto from "/public/img/foto-hold.jpg";
 import { Fira_Sans } from "next/font/google";
 
 const text = Fira_Sans({
